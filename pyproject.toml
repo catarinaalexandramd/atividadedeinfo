@@ -1,0 +1,11 @@
+[project]
+name = "api-aluno"
+version = "0.1.0"
+description = "API do aluno"
+requires-python = ">=3.11"
+
+dependencies = [
+    "fastapi>=0.137.1",
+    "uvicorn>=0.49.0",
+    "requests>=2.34.2"
+]
